@@ -1,4 +1,4 @@
-const diccionario = {
+const dictionary = {
 	a: 10,
 	b: 11,
 	c: 12,
@@ -6,7 +6,7 @@ const diccionario = {
 	e: 14,
 	f: 15
 }
-const solution3 = (string) => {
+const convert = (string) => {
 	let finalString = "";
 	if (string.charAt(0) === "#") {
 		let tempString = string.slice(1);
