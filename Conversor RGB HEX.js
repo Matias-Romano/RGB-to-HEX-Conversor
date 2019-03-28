@@ -7,6 +7,7 @@ const dictionary = {
 	f: 15
 }
 const convert = (string) => {
+	string.toLowerCase();
 	let finalString = "";
 	if (string.charAt(0) === "#") {
 		let tempString = string.slice(1);
